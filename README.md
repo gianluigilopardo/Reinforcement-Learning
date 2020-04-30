@@ -1,6 +1,6 @@
 # Stochastic optimization
 
-Here I present a **Reinforcement learning** application to the **Stochastic optimization** problem which follow.
+Here I present a **Reinforcement learning** application to the simple **Stochastic optimization** problem which follow.
 
 Let us consider the following system. A small shop has two employees. One is always serving customers, the other is doing other jobs as
 well. Suppose that the number of customers in the shop is between 0 and 6, since any further incoming customer would not enter the shop if
@@ -39,6 +39,6 @@ R2 =  [−0.2  0.8 −0.2 −0.2 −0.2 −0.2 −0.2]
 ```
 Please use Reinforcement Learning to learn the best policy. As a stepsize rule, please use 
 ```math
-αk = A/(B + k)
+αk = A/(B+k)
 ```
 with A = 150 and B = 300. The number of iterations can be 105. Use as initial state the one where no customer is in the shop.
